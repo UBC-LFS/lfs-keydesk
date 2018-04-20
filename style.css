@@ -1,0 +1,203 @@
+    /* Fixed-width banner */
+    #ubcBannerWrapper {
+      border: 0px solid #39ba42; /* change to 1px to test container sizing +
+      positioning */
+      width: 740px;
+      margin: 0 auto; /* to left-align the banner, change this to margin:0; */
+       padding: 0;
+       margin-bottom: 10px;
+    }
+
+    /****************************
+    Position the UBC logo graphic
+    *****************************/
+    #ubcBannerCrest {
+      margin-left: 13px;
+      margin-left: 6px; /* for IE 6 */
+      margin-top: 3px;
+      float: left;
+    }
+    
+    #ubcBannerCrest a img {
+      behavior: url('/ubc_clf/js/pngbehavior.htc');
+    }
+              
+    /****************************************************
+    Define properties for the banner and links in CLF bar
+    *****************************************************/
+    #ubcBanner {
+      clear: both;
+      position: relative;
+      width: 100%;
+      height: 43px;
+      background: url(http://www.ubc.ca/ubc_clf/images/ubc_banner_003399.gif) repeat-x;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: .6em;
+      white-space: nowrap;
+   }
+
+   #ubcBanner a:link, #ubcBanner a:visited {
+     text-decoration: none;
+     color: #fff;
+   }
+   #ubcBanner a:hover {
+     text-decoration: underline;
+   }
+   #ubcBanner a:active {
+     text-decoration: none;
+   }
+
+   /**********************************************************************
+                                  Define properties for banner title "The
+                                  University of British Columbia"
+    ***********************************************************************/
+   #ubcBanner p.ubcBannerTitle {
+   /* border:1px solid #f90; /* uncomment to
+    * test sizing + positioning */
+      float: left;
+      padding: 0 6px;
+      margin-top: 23px;
+      font-size: 100%;
+      font-weight: bold;
+   }
+                                               
+              
+              
+    body,td,div,p,a,font,span,ol,ul
+    {
+    font-family: arial,sans-serif;
+    font-size: 1em;
+    }
+    body {margin-top:2; text-align:center;}
+
+    #container {margin:0px auto; width:750px; text-align:left;}
+
+    .c {width: 4; height: 4}
+
+    .tl {padding: 0; width: 4; text-align: left; vertical-align: top}
+    .tr {padding: 0; width: 4; text-align: right; vertical-align: top}
+    .bl {padding: 0; width: 4; text-align: left; vertical-align: bottom}
+    .br {padding: 0; width: 4; text-align: right; vertical-align: bottom}
+
+    .caption {color:#000000; white-space:nowrap; background:#E8EEFA;
+    text-align:center}
+
+    .form-noindent {background-color: #ffffff; border: #C3D9FF 1px solid}
+
+    .footer a {color: #23292F;}
+
+    p {
+    padding: 0;
+    margin: 0 0 15px 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    line-height: 1.3;
+    }
+    h1 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-transform: uppercase;
+    color: #039;
+    }
+    h2 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    color: #900;
+    }
+    h3 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-family: Arial, Helvetica,
+    sans-serif;
+    font-size: 80%;
+    color: #000;
+    }
+    h4 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-family: Arial,
+    Helvetica, sans-serif;
+    font-size: 75%;
+    color: #333;
+    }
+    h5 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-family:
+    Arial, Helvetica,
+    sans-serif;
+    font-size: 75%;
+    color: #333;
+    font-style: italic; 
+    }
+    h6 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    color: #333;
+    font-style: italic; 
+    }
+    
+    a:link
+    {
+    color: #069;
+    text-decoration: underline;
+    }
+    a:visited,
+    a:active
+    {
+    color: #666;
+    text-decoration: underline;
+    }
+    a:hover
+    {
+    color: #069;
+    text-decoration: none;
+    }
+    
+    blockquote
+    {
+    padding: 0;
+    margin: 0 20px 15px 20px;
+    }
+    pre
+    {
+    padding: 0;
+    margin: 0 0 15px 0;
+    font-family: "Courier New", Courier, mono;
+    font-size: 75%;
+    }
+    
+    hr
+    {
+    border: 0;
+    border-top: 1px solid #cdcdcd;
+    height: 1px;
+    }
+
+    ul {
+    font-size: 12px;
+    line-height: 125%;
+    }
+
+    ol {
+    font-size: 12px;
+    line-height: 125%;
+    }
+    
+    li {
+    list-style: square;
+    margin-left: -20px;
+    sans-serif;
+    font-size: 12px;
+    line-height: 125%;
+    }
+    

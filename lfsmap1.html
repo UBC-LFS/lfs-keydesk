@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<!--
+UBC Web Common Look and Feel v. 6.0
+UBC Public Affairs
+t: 604.822.2130
+e: web.admin@ubc.ca
+w: www.webcommunications.ubc.ca 
+-->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Welcome to The University of British Columbia - UBC.ca</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<link href="/keydesk/_ubc_clf/css/clf-required-fixedwidth.css" type="text/css" media="screen" rel="stylesheet" />
+<link href="/keydesk/_ubc_clf/css/clf-typography.css" type="text/css" media="screen" rel="stylesheet" />
+<link href="/keydesk/_ubc_clf/css/clf-optional.css" type="text/css" media="screen" rel="stylesheet" />
+<link href="/keydesk/_ubc_clf/css/clf-2-column.css" type="text/css" media="screen" rel="stylesheet" />
+<!--[if lte IE 7]>
+<link href="/keydesk/_ubc_clf/css/ie.css" type="text/css" media="screen" rel="Stylesheet" />
+<![endif]-->
+
+<link rel="icon" type="image/vnd.microsoft.icon" href="/keydesk/_ubc_clf/img/favicon.ico" />
+<!-- InstanceEndEditable -->
+
+<!-- KeyDesk JS -->
+  <script type="text/javascript" src="js/jquery-latest.js">
+  </script>
+  <script type="text/javascript" src="js/jquery.validate.js">
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#form1").validate({
+        rules: {
+          sname: "required",// simple rule, converted to {required:true}
+          rname: "required",// simple rule, converted to {required:true}
+          rposn: "required",// simple rule, converted to {required:true}
+          remail: {// compound rule
+          required: true,
+          email: true
+        },
+        url: {
+          url: true
+        },
+        comment: {
+          required: true
+        }
+        },
+        messages: {
+          comment: "Please enter a comment."
+        }
+      });
+    });
+  </script>
+
+  <script type="text/css">
+    label.error { width: 250px; display: block; float: left; 
+                  color: red; padding-left: 10px; }
+  </script>
+</head>
+
+<body>
+<div id="UbcHeaderWrapper">
+<!-- BEGIN: UBC CLF GLOBAL UTILITY HEADER -->
+  <div id="UbcToolBarWrapper">
+
+    <div id="UbcToolBar" class="UbcContainer">
+      <ul id="UbcToolNav">
+        <li><a id="UbcCampusLinks" href="http://www.ubc.ca/campuses/">Campuses</a></li>
+        <li><a id="UbcDirectLinks" href="http://www.ubc.ca/directories/">UBC Directories</a></li>
+        <li><a id="UbcQuickLinks" href="http://www.ubc.ca/quicklinks/">UBC Quick Links</a></li>
+        <li class="UbcForm">
+          <form id="UbcSearchForm" action="http://www.ubc.ca/search/" method="get">
+
+            <input type="text" name="q" value="" class="UbcSearchField" />
+            <input type="image" src="./_ubc_clf/img/header/spacer.gif" class="UbcSearchBtn" value="Search" alt="Search" />
+          </form>
+        </li>
+      </ul>
+    </div><!-- End UbcToolBar UbcContainer -->
+  </div><!-- End UbcToolBarWrapper -->
+  <div id="UbcMegaMenuesWrapper" class="UbcContainer">
+    <div id="UbcMegaMenues" class="UbcContainer"> <a href="#" class="UbcCloseBtn">[X] close</a> </div><!-- End UbcMegaMenues UbcContainer -->
+
+  </div><!-- End UbcMegaMenuesWrapper UbcContainer -->
+<!-- END: UBC CLF GLOBAL UTILITY HEADER -->
+
+<!-- BEGIN: UBC CLF VISUAL IDENTITY HEADER -->
+  <ul id="UbcHeader" class="UbcContainer">
+    <li>
+      <h1 id="UbcLogo"><a href="http://www.ubc.ca/">The University of British Columbia</a></h1>
+    </li>
+    <li class="UbcMindLink"><a href="http://www.aplaceofmind.ubc.ca/" id="UbcMindLink">a place of mind</a></li>
+    <li id="UbcHeaderLine"><a href="http://www.ubc.ca/" id="UbcHeaderLink"><span>The University of British Columbia</span></a></li>
+    <li id="UbcSubUnitLine"><a href="http://www.landfood.ubc.ca/" id="UbcSubUnitLink"><span>Faculty of Land and Food Systems</span></a></li>
+  </ul>
+<!-- END: UBC CLF VISUAL IDENTITY HEADER -->
+<!-- #EndLibraryItem --><!-- InstanceEndEditable -->
+</div><!-- End UbcHeaderWrapper -->
+<!-- END: UBC CLF HEADER -->
+
+<!-- BEGIN: UBC CLF CONTENT SPACE -->
+<div id="UbcContentWrapper">
+  <div id="UbcContent" class="UbcContainer">
+    <div id="UbcMainContent" class="UbcClear"> 
+
